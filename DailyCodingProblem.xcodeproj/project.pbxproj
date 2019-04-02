@@ -17,6 +17,7 @@
 		C5025C332253FC7D008A579F /* Problem4.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5025C322253FC7D008A579F /* Problem4.swift */; };
 		C5025C3B225405A0008A579F /* Problem4Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5025C3A225405A0008A579F /* Problem4Test.swift */; };
 		C5025C40225405AA008A579F /* Problem4.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5025C322253FC7D008A579F /* Problem4.swift */; };
+		C5025C4522542538008A579F /* Problem5.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5025C4122541EFE008A579F /* Problem5.swift */; };
 		C5576AF22253A8A600D58719 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5576AF12253A8A600D58719 /* main.swift */; };
 		C55FE09D2253AD0700F28686 /* Problem2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55FE09C2253AD0700F28686 /* Problem2.swift */; };
 /* End PBXBuildFile section */
@@ -48,6 +49,8 @@
 		C5025C38225405A0008A579F /* Problem4Test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Problem4Test.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5025C3A225405A0008A579F /* Problem4Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem4Test.swift; sourceTree = "<group>"; };
 		C5025C3C225405A0008A579F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5025C4122541EFE008A579F /* Problem5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem5.swift; sourceTree = "<group>"; };
+		C5025C4422541F1F008A579F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C5576AEE2253A8A600D58719 /* DailyCodingProblem */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DailyCodingProblem; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5576AF12253A8A600D58719 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C5576AFB2253A93D00D58719 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -132,10 +135,20 @@
 			path = Problem4Test;
 			sourceTree = "<group>";
 		};
+		C5025C4322541F06008A579F /* Problem 5 */ = {
+			isa = PBXGroup;
+			children = (
+				C5025C4422541F1F008A579F /* README.md */,
+				C5025C4122541EFE008A579F /* Problem5.swift */,
+			);
+			path = "Problem 5";
+			sourceTree = "<group>";
+		};
 		C5576AE52253A8A600D58719 = {
 			isa = PBXGroup;
 			children = (
 				C5576AF02253A8A600D58719 /* DailyCodingProblem */,
+				C5025C4322541F06008A579F /* Problem 5 */,
 				C5025C122253C07E008A579F /* Problem2Test */,
 				C5025C232253CCAD008A579F /* Problem3Test */,
 				C5025C39225405A0008A579F /* Problem4Test */,
@@ -346,6 +359,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5025C4522542538008A579F /* Problem5.swift in Sources */,
 				C5025C2C2253DC0B008A579F /* String+Extension.swift in Sources */,
 				C5025C332253FC7D008A579F /* Problem4.swift in Sources */,
 				C5025C1B2253C54A008A579F /* Problem3.swift in Sources */,
