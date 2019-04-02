@@ -8,11 +8,11 @@
 
 import Foundation
 
-public class Problem2 {
+class Problem2 {
     
     // Time complexity: O(N)
     // Space complexity: O(N)
-    public static func solve(_ v: [Int]) -> [Int] {
+    static func solve(_ v: [Int]) -> [Int] {
         var productOfAll = 1
         var zeros = 0
         for elem in v {
@@ -30,7 +30,7 @@ public class Problem2 {
 
     // Time complexity: O(N^2)
     // Space complexity: O(N)
-    public static func solveWithoutDivision(_ v: [Int]) -> [Int] {
+    static func solveWithoutDivision(_ v: [Int]) -> [Int] {
         var result = Array(repeating: 0, count: v.count)
         for i in 0..<v.count {
             var product = 1
