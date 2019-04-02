@@ -12,4 +12,5 @@ print("Hello, World!")
 
 //print(Problem2.solve([0, 2, 3, 4, 5]))
 
-print(Problem2.solveWithoutDivision([0, 2, 3, 4, 5]))
+var v = [1, 2, 3, 3, 5]
+print(Problem4.solve(&v))
