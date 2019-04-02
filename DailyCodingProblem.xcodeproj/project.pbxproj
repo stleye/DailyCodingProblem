@@ -148,7 +148,6 @@
 			isa = PBXGroup;
 			children = (
 				C5576AF02253A8A600D58719 /* DailyCodingProblem */,
-				C5025C4322541F06008A579F /* Problem 5 */,
 				C5025C122253C07E008A579F /* Problem2Test */,
 				C5025C232253CCAD008A579F /* Problem3Test */,
 				C5025C39225405A0008A579F /* Problem4Test */,
@@ -174,6 +173,7 @@
 				C5576AFC2253A95900D58719 /* Problem 2 */,
 				C5025C1D2253C56E008A579F /* Problem 3 */,
 				C5025C302253FC49008A579F /* Problem 4 */,
+				C5025C4322541F06008A579F /* Problem 5 */,
 			);
 			path = DailyCodingProblem;
 			sourceTree = "<group>";
