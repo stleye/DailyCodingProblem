@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C5025C142253C07E008A579F /* Problem2Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5025C132253C07E008A579F /* Problem2Test.swift */; };
+		C5025C192253C216008A579F /* Problem2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55FE09C2253AD0700F28686 /* Problem2.swift */; };
 		C5576AF22253A8A600D58719 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5576AF12253A8A600D58719 /* main.swift */; };
+		C55FE09D2253AD0700F28686 /* Problem2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55FE09C2253AD0700F28686 /* Problem2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,11 +26,23 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C5025C112253C07E008A579F /* Problem2Test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Problem2Test.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5025C132253C07E008A579F /* Problem2Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem2Test.swift; sourceTree = "<group>"; };
+		C5025C152253C07E008A579F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5576AEE2253A8A600D58719 /* DailyCodingProblem */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DailyCodingProblem; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5576AF12253A8A600D58719 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C5576AFB2253A93D00D58719 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C55FE09C2253AD0700F28686 /* Problem2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		C5025C0E2253C07E008A579F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C5576AEB2253A8A600D58719 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -38,10 +53,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C5025C122253C07E008A579F /* Problem2Test */ = {
+			isa = PBXGroup;
+			children = (
+				C5025C132253C07E008A579F /* Problem2Test.swift */,
+				C5025C152253C07E008A579F /* Info.plist */,
+			);
+			path = Problem2Test;
+			sourceTree = "<group>";
+		};
 		C5576AE52253A8A600D58719 = {
 			isa = PBXGroup;
 			children = (
 				C5576AF02253A8A600D58719 /* DailyCodingProblem */,
+				C5025C122253C07E008A579F /* Problem2Test */,
 				C5576AEF2253A8A600D58719 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				C5576AEE2253A8A600D58719 /* DailyCodingProblem */,
+				C5025C112253C07E008A579F /* Problem2Test.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,13 +84,40 @@
 			isa = PBXGroup;
 			children = (
 				C5576AF12253A8A600D58719 /* main.swift */,
+				C5576AFC2253A95900D58719 /* Problem 2 */,
 			);
 			path = DailyCodingProblem;
+			sourceTree = "<group>";
+		};
+		C5576AFC2253A95900D58719 /* Problem 2 */ = {
+			isa = PBXGroup;
+			children = (
+				C5576AFB2253A93D00D58719 /* README.md */,
+				C55FE09C2253AD0700F28686 /* Problem2.swift */,
+			);
+			path = "Problem 2";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		C5025C102253C07E008A579F /* Problem2Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5025C162253C07E008A579F /* Build configuration list for PBXNativeTarget "Problem2Test" */;
+			buildPhases = (
+				C5025C0D2253C07E008A579F /* Sources */,
+				C5025C0E2253C07E008A579F /* Frameworks */,
+				C5025C0F2253C07E008A579F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Problem2Test;
+			productName = Problem2Test;
+			productReference = C5025C112253C07E008A579F /* Problem2Test.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		C5576AED2253A8A600D58719 /* DailyCodingProblem */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C5576AF52253A8A600D58719 /* Build configuration list for PBXNativeTarget "DailyCodingProblem" */;
@@ -92,6 +145,9 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = Humileants;
 				TargetAttributes = {
+					C5025C102253C07E008A579F = {
+						CreatedOnToolsVersion = 10.1;
+					};
 					C5576AED2253A8A600D58719 = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -110,15 +166,36 @@
 			projectRoot = "";
 			targets = (
 				C5576AED2253A8A600D58719 /* DailyCodingProblem */,
+				C5025C102253C07E008A579F /* Problem2Test */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		C5025C0F2253C07E008A579F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		C5025C0D2253C07E008A579F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5025C192253C216008A579F /* Problem2.swift in Sources */,
+				C5025C142253C07E008A579F /* Problem2Test.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C5576AEA2253A8A600D58719 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C55FE09D2253AD0700F28686 /* Problem2.swift in Sources */,
 				C5576AF22253A8A600D58719 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -126,6 +203,42 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		C5025C172253C07E008A579F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3AS2PM2F4J;
+				INFOPLIST_FILE = Problem2Test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.humileants.Problem2Test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		C5025C182253C07E008A579F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3AS2PM2F4J;
+				INFOPLIST_FILE = Problem2Test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.humileants.Problem2Test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
 		C5576AF32253A8A600D58719 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -264,6 +377,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		C5025C162253C07E008A579F /* Build configuration list for PBXNativeTarget "Problem2Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5025C172253C07E008A579F /* Debug */,
+				C5025C182253C07E008A579F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C5576AE92253A8A600D58719 /* Build configuration list for PBXProject "DailyCodingProblem" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
