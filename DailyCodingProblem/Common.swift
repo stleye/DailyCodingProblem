@@ -23,3 +23,13 @@ indirect enum BinaryTree<T: Equatable>: Equatable {
     case Nil
     case Bin(BinaryTree<T>, T, BinaryTree<T>)
 }
+
+class Node<T> {
+    var value: T
+    var leftChild: Node?
+    var rightChild: Node?
+    
+    init(value: T) {
+        self.value = value
+    }
+}

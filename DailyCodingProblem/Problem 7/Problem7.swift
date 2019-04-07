@@ -8,16 +8,6 @@
 
 import Foundation
 
-class Node<T> {
-    var value: T
-    var leftChild: Node?
-    var rightChild: Node?
-
-    init(value: T) {
-        self.value = value
-    }
-}
-
 class Problem7 {
 
     static let twoPathCharacters = "12"
