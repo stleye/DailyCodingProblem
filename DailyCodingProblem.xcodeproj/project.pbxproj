@@ -25,10 +25,15 @@
 		C53E920822593345004D4040 /* Problem7Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53E920722593345004D4040 /* Problem7Test.swift */; };
 		C53E920D22593372004D4040 /* Problem7.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55FBBA62258205A00D1E0F8 /* Problem7.swift */; };
 		C53E920E225933AF004D4040 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5025C2B2253DC0B008A579F /* String+Extension.swift */; };
+		C53E921222594BC8004D4040 /* Problem8.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53E921122594BC8004D4040 /* Problem8.swift */; };
 		C5576AF22253A8A600D58719 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5576AF12253A8A600D58719 /* main.swift */; };
 		C55FBBA72258205A00D1E0F8 /* Problem7.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55FBBA62258205A00D1E0F8 /* Problem7.swift */; };
 		C55FBBAB2258260900D1E0F8 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55FBBAA2258260900D1E0F8 /* Common.swift */; };
 		C55FE09D2253AD0700F28686 /* Problem2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55FE09C2253AD0700F28686 /* Problem2.swift */; };
+		C5B8A230225A464900D5C04F /* Problem8Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B8A22F225A464900D5C04F /* Problem8Test.swift */; };
+		C5B8A235225A465900D5C04F /* Problem8.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53E921122594BC8004D4040 /* Problem8.swift */; };
+		C5B8A236225A476000D5C04F /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55FBBAA2258260900D1E0F8 /* Common.swift */; };
+		C5B8A237225A476700D5C04F /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55FBBAA2258260900D1E0F8 /* Common.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -67,6 +72,8 @@
 		C53E920522593345004D4040 /* Problem7Test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Problem7Test.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C53E920722593345004D4040 /* Problem7Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem7Test.swift; sourceTree = "<group>"; };
 		C53E920922593345004D4040 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C53E921122594BC8004D4040 /* Problem8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem8.swift; sourceTree = "<group>"; };
+		C53E921422594BDC004D4040 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C5576AEE2253A8A600D58719 /* DailyCodingProblem */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DailyCodingProblem; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5576AF12253A8A600D58719 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C5576AFB2253A93D00D58719 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -74,6 +81,9 @@
 		C55FBBA92258208100D1E0F8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C55FBBAA2258260900D1E0F8 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		C55FE09C2253AD0700F28686 /* Problem2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem2.swift; sourceTree = "<group>"; };
+		C5B8A22D225A464800D5C04F /* Problem8Test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Problem8Test.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5B8A22F225A464900D5C04F /* Problem8Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem8Test.swift; sourceTree = "<group>"; };
+		C5B8A231225A464900D5C04F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +116,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		C5576AEB2253A8A600D58719 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5B8A22A225A464800D5C04F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -196,6 +213,15 @@
 			path = Problem7Test;
 			sourceTree = "<group>";
 		};
+		C53E921322594BCC004D4040 /* Problem 8 */ = {
+			isa = PBXGroup;
+			children = (
+				C53E921122594BC8004D4040 /* Problem8.swift */,
+				C53E921422594BDC004D4040 /* README.md */,
+			);
+			path = "Problem 8";
+			sourceTree = "<group>";
+		};
 		C5576AE52253A8A600D58719 = {
 			isa = PBXGroup;
 			children = (
@@ -205,6 +231,7 @@
 				C5025C39225405A0008A579F /* Problem4Test */,
 				C53E91F722593215004D4040 /* Problem7Test */,
 				C53E920622593345004D4040 /* Problem7Test */,
+				C5B8A22E225A464900D5C04F /* Problem8Test */,
 				C5576AEF2253A8A600D58719 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -217,6 +244,7 @@
 				C5025C222253CCAD008A579F /* Problem3Test.xctest */,
 				C5025C38225405A0008A579F /* Problem4Test.xctest */,
 				C53E920522593345004D4040 /* Problem7Test.xctest */,
+				C5B8A22D225A464800D5C04F /* Problem8Test.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -233,6 +261,7 @@
 				C5025C4322541F06008A579F /* Problem 5 */,
 				C5025C4822542B8E008A579F /* Problem 6 */,
 				C55FBBA82258205D00D1E0F8 /* Problem 7 */,
+				C53E921322594BCC004D4040 /* Problem 8 */,
 			);
 			path = DailyCodingProblem;
 			sourceTree = "<group>";
@@ -253,6 +282,15 @@
 				C55FBBA62258205A00D1E0F8 /* Problem7.swift */,
 			);
 			path = "Problem 7";
+			sourceTree = "<group>";
+		};
+		C5B8A22E225A464900D5C04F /* Problem8Test */ = {
+			isa = PBXGroup;
+			children = (
+				C5B8A22F225A464900D5C04F /* Problem8Test.swift */,
+				C5B8A231225A464900D5C04F /* Info.plist */,
+			);
+			path = Problem8Test;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -343,6 +381,23 @@
 			productReference = C5576AEE2253A8A600D58719 /* DailyCodingProblem */;
 			productType = "com.apple.product-type.tool";
 		};
+		C5B8A22C225A464800D5C04F /* Problem8Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5B8A234225A464900D5C04F /* Build configuration list for PBXNativeTarget "Problem8Test" */;
+			buildPhases = (
+				C5B8A229225A464800D5C04F /* Sources */,
+				C5B8A22A225A464800D5C04F /* Frameworks */,
+				C5B8A22B225A464800D5C04F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Problem8Test;
+			productName = Problem8Test;
+			productReference = C5B8A22D225A464800D5C04F /* Problem8Test.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -368,6 +423,9 @@
 					C5576AED2253A8A600D58719 = {
 						CreatedOnToolsVersion = 10.1;
 					};
+					C5B8A22C225A464800D5C04F = {
+						CreatedOnToolsVersion = 10.1;
+					};
 				};
 			};
 			buildConfigurationList = C5576AE92253A8A600D58719 /* Build configuration list for PBXProject "DailyCodingProblem" */;
@@ -387,6 +445,7 @@
 				C5025C212253CCAD008A579F /* Problem3Test */,
 				C5025C37225405A0008A579F /* Problem4Test */,
 				C53E920422593345004D4040 /* Problem7Test */,
+				C5B8A22C225A464800D5C04F /* Problem8Test */,
 			);
 		};
 /* End PBXProject section */
@@ -414,6 +473,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		C53E920322593345004D4040 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5B8A22B225A464800D5C04F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -458,6 +524,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5B8A237225A476700D5C04F /* Common.swift in Sources */,
 				C53E920E225933AF004D4040 /* String+Extension.swift in Sources */,
 				C53E920D22593372004D4040 /* Problem7.swift in Sources */,
 				C53E920822593345004D4040 /* Problem7Test.swift in Sources */,
@@ -474,9 +541,20 @@
 				C5025C332253FC7D008A579F /* Problem4.swift in Sources */,
 				C55FBBAB2258260900D1E0F8 /* Common.swift in Sources */,
 				C5025C4722542B89008A579F /* Problem6.swift in Sources */,
+				C53E921222594BC8004D4040 /* Problem8.swift in Sources */,
 				C5025C1B2253C54A008A579F /* Problem3.swift in Sources */,
 				C55FE09D2253AD0700F28686 /* Problem2.swift in Sources */,
 				C5576AF22253A8A600D58719 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5B8A229225A464800D5C04F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5B8A236225A476000D5C04F /* Common.swift in Sources */,
+				C5B8A235225A465900D5C04F /* Problem8.swift in Sources */,
+				C5B8A230225A464900D5C04F /* Problem8Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -762,6 +840,42 @@
 			};
 			name = Release;
 		};
+		C5B8A232225A464900D5C04F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3AS2PM2F4J;
+				INFOPLIST_FILE = Problem8Test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.humileants.Problem8Test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		C5B8A233225A464900D5C04F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3AS2PM2F4J;
+				INFOPLIST_FILE = Problem8Test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.humileants.Problem8Test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -815,6 +929,15 @@
 			buildConfigurations = (
 				C5576AF62253A8A600D58719 /* Debug */,
 				C5576AF72253A8A600D58719 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5B8A234225A464900D5C04F /* Build configuration list for PBXNativeTarget "Problem8Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5B8A232225A464900D5C04F /* Debug */,
+				C5B8A233225A464900D5C04F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
