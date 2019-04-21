@@ -27,9 +27,22 @@
 		C53E920E225933AF004D4040 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5025C2B2253DC0B008A579F /* String+Extension.swift */; };
 		C53E921222594BC8004D4040 /* Problem8.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53E921122594BC8004D4040 /* Problem8.swift */; };
 		C5576AF22253A8A600D58719 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5576AF12253A8A600D58719 /* main.swift */; };
+		C55C732D226BB95600D6FF2B /* Problem128.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55C732C226BB95600D6FF2B /* Problem128.swift */; };
+		C55C7331226BC02A00D6FF2B /* Problem25.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55C7330226BC02A00D6FF2B /* Problem25.swift */; };
+		C55C7347226BC8DF00D6FF2B /* Problem25Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55C7346226BC8DF00D6FF2B /* Problem25Test.swift */; };
+		C55C734C226BC91700D6FF2B /* Problem25.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55C7330226BC02A00D6FF2B /* Problem25.swift */; };
+		C55C734D226BC9B900D6FF2B /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59824BE2268F2B300A2EBB4 /* Array+Extension.swift */; };
+		C55C734E226BC9D400D6FF2B /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59824BE2268F2B300A2EBB4 /* Array+Extension.swift */; };
+		C55C734F226BC9DA00D6FF2B /* Problem25.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55C7330226BC02A00D6FF2B /* Problem25.swift */; };
+		C55C7350226BCA1B00D6FF2B /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5025C2B2253DC0B008A579F /* String+Extension.swift */; };
+		C55C7351226BCA7600D6FF2B /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5025C2B2253DC0B008A579F /* String+Extension.swift */; };
+		C55C7359226BE70A00D6FF2B /* Problem12Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55C7358226BE70A00D6FF2B /* Problem12Test.swift */; };
+		C55C735E226BE7DF00D6FF2B /* Problem12.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59824C0226A3C2D00A2EBB4 /* Problem12.swift */; };
 		C55FBBA72258205A00D1E0F8 /* Problem7.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55FBBA62258205A00D1E0F8 /* Problem7.swift */; };
 		C55FBBAB2258260900D1E0F8 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55FBBAA2258260900D1E0F8 /* Common.swift */; };
 		C55FE09D2253AD0700F28686 /* Problem2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55FE09C2253AD0700F28686 /* Problem2.swift */; };
+		C59824BF2268F2B300A2EBB4 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59824BE2268F2B300A2EBB4 /* Array+Extension.swift */; };
+		C59824C1226A3C2D00A2EBB4 /* Problem12.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59824C0226A3C2D00A2EBB4 /* Problem12.swift */; };
 		C5B8A230225A464900D5C04F /* Problem8Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B8A22F225A464900D5C04F /* Problem8Test.swift */; };
 		C5B8A235225A465900D5C04F /* Problem8.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53E921122594BC8004D4040 /* Problem8.swift */; };
 		C5B8A236225A476000D5C04F /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55FBBAA2258260900D1E0F8 /* Common.swift */; };
@@ -81,10 +94,23 @@
 		C5576AEE2253A8A600D58719 /* DailyCodingProblem */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DailyCodingProblem; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5576AF12253A8A600D58719 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C5576AFB2253A93D00D58719 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C55C732C226BB95600D6FF2B /* Problem128.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem128.swift; sourceTree = "<group>"; };
+		C55C732F226BB97B00D6FF2B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C55C7330226BC02A00D6FF2B /* Problem25.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem25.swift; sourceTree = "<group>"; };
+		C55C7333226BC04800D6FF2B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C55C7344226BC8DF00D6FF2B /* Problem25Test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Problem25Test.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C55C7346226BC8DF00D6FF2B /* Problem25Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem25Test.swift; sourceTree = "<group>"; };
+		C55C7348226BC8DF00D6FF2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C55C7356226BE70A00D6FF2B /* Problem12Test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Problem12Test.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C55C7358226BE70A00D6FF2B /* Problem12Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem12Test.swift; sourceTree = "<group>"; };
+		C55C735A226BE70A00D6FF2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C55FBBA62258205A00D1E0F8 /* Problem7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem7.swift; sourceTree = "<group>"; };
 		C55FBBA92258208100D1E0F8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C55FBBAA2258260900D1E0F8 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		C55FE09C2253AD0700F28686 /* Problem2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem2.swift; sourceTree = "<group>"; };
+		C59824BE2268F2B300A2EBB4 /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
+		C59824C0226A3C2D00A2EBB4 /* Problem12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem12.swift; sourceTree = "<group>"; };
+		C59824C3226A3C5200A2EBB4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C5B8A22D225A464800D5C04F /* Problem8Test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Problem8Test.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5B8A22F225A464900D5C04F /* Problem8Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem8Test.swift; sourceTree = "<group>"; };
 		C5B8A231225A464900D5C04F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -127,6 +153,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		C5576AEB2253A8A600D58719 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C55C7341226BC8DF00D6FF2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C55C7353226BE70A00D6FF2B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -244,13 +284,14 @@
 			isa = PBXGroup;
 			children = (
 				C5576AF02253A8A600D58719 /* DailyCodingProblem */,
-				C5E5381222620A4E001E388A /* Problem 257 */,
 				C5025C122253C07E008A579F /* Problem2Test */,
 				C5025C232253CCAD008A579F /* Problem3Test */,
 				C5025C39225405A0008A579F /* Problem4Test */,
 				C53E91F722593215004D4040 /* Problem7Test */,
 				C53E920622593345004D4040 /* Problem7Test */,
 				C5B8A22E225A464900D5C04F /* Problem8Test */,
+				C55C7357226BE70A00D6FF2B /* Problem12Test */,
+				C55C7345226BC8DF00D6FF2B /* Problem25Test */,
 				C5E5382622621426001E388A /* Problem257Test */,
 				C5576AEF2253A8A600D58719 /* Products */,
 			);
@@ -266,6 +307,8 @@
 				C53E920522593345004D4040 /* Problem7Test.xctest */,
 				C5B8A22D225A464800D5C04F /* Problem8Test.xctest */,
 				C5E5382522621426001E388A /* Problem257Test.xctest */,
+				C55C7344226BC8DF00D6FF2B /* Problem25Test.xctest */,
+				C55C7356226BE70A00D6FF2B /* Problem12Test.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -274,6 +317,7 @@
 			isa = PBXGroup;
 			children = (
 				C5576AF12253A8A600D58719 /* main.swift */,
+				C59824BE2268F2B300A2EBB4 /* Array+Extension.swift */,
 				C55FBBAA2258260900D1E0F8 /* Common.swift */,
 				C5025C2B2253DC0B008A579F /* String+Extension.swift */,
 				C5576AFC2253A95900D58719 /* Problem 2 */,
@@ -284,6 +328,10 @@
 				C55FBBA82258205D00D1E0F8 /* Problem 7 */,
 				C53E921322594BCC004D4040 /* Problem 8 */,
 				C5B8A23A225A57CE00D5C04F /* Problem 9 */,
+				C59824C2226A3C3200A2EBB4 /* Problem 12 */,
+				C55C7332226BC03500D6FF2B /* Problem 25 */,
+				C55C732E226BB96800D6FF2B /* Problem 128 */,
+				C5E5381222620A4E001E388A /* Problem 257 */,
 			);
 			path = DailyCodingProblem;
 			sourceTree = "<group>";
@@ -297,6 +345,42 @@
 			path = "Problem 2";
 			sourceTree = "<group>";
 		};
+		C55C732E226BB96800D6FF2B /* Problem 128 */ = {
+			isa = PBXGroup;
+			children = (
+				C55C732C226BB95600D6FF2B /* Problem128.swift */,
+				C55C732F226BB97B00D6FF2B /* README.md */,
+			);
+			path = "Problem 128";
+			sourceTree = "<group>";
+		};
+		C55C7332226BC03500D6FF2B /* Problem 25 */ = {
+			isa = PBXGroup;
+			children = (
+				C55C7330226BC02A00D6FF2B /* Problem25.swift */,
+				C55C7333226BC04800D6FF2B /* README.md */,
+			);
+			path = "Problem 25";
+			sourceTree = "<group>";
+		};
+		C55C7345226BC8DF00D6FF2B /* Problem25Test */ = {
+			isa = PBXGroup;
+			children = (
+				C55C7346226BC8DF00D6FF2B /* Problem25Test.swift */,
+				C55C7348226BC8DF00D6FF2B /* Info.plist */,
+			);
+			path = Problem25Test;
+			sourceTree = "<group>";
+		};
+		C55C7357226BE70A00D6FF2B /* Problem12Test */ = {
+			isa = PBXGroup;
+			children = (
+				C55C7358226BE70A00D6FF2B /* Problem12Test.swift */,
+				C55C735A226BE70A00D6FF2B /* Info.plist */,
+			);
+			path = Problem12Test;
+			sourceTree = "<group>";
+		};
 		C55FBBA82258205D00D1E0F8 /* Problem 7 */ = {
 			isa = PBXGroup;
 			children = (
@@ -304,6 +388,15 @@
 				C55FBBA62258205A00D1E0F8 /* Problem7.swift */,
 			);
 			path = "Problem 7";
+			sourceTree = "<group>";
+		};
+		C59824C2226A3C3200A2EBB4 /* Problem 12 */ = {
+			isa = PBXGroup;
+			children = (
+				C59824C0226A3C2D00A2EBB4 /* Problem12.swift */,
+				C59824C3226A3C5200A2EBB4 /* README.md */,
+			);
+			path = "Problem 12";
 			sourceTree = "<group>";
 		};
 		C5B8A22E225A464900D5C04F /* Problem8Test */ = {
@@ -430,6 +523,40 @@
 			productReference = C5576AEE2253A8A600D58719 /* DailyCodingProblem */;
 			productType = "com.apple.product-type.tool";
 		};
+		C55C7343226BC8DF00D6FF2B /* Problem25Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C55C7349226BC8DF00D6FF2B /* Build configuration list for PBXNativeTarget "Problem25Test" */;
+			buildPhases = (
+				C55C7340226BC8DF00D6FF2B /* Sources */,
+				C55C7341226BC8DF00D6FF2B /* Frameworks */,
+				C55C7342226BC8DF00D6FF2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Problem25Test;
+			productName = Problem25Test;
+			productReference = C55C7344226BC8DF00D6FF2B /* Problem25Test.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C55C7355226BE70A00D6FF2B /* Problem12Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C55C735B226BE70A00D6FF2B /* Build configuration list for PBXNativeTarget "Problem12Test" */;
+			buildPhases = (
+				C55C7352226BE70A00D6FF2B /* Sources */,
+				C55C7353226BE70A00D6FF2B /* Frameworks */,
+				C55C7354226BE70A00D6FF2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Problem12Test;
+			productName = Problem12Test;
+			productReference = C55C7356226BE70A00D6FF2B /* Problem12Test.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		C5B8A22C225A464800D5C04F /* Problem8Test */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C5B8A234225A464900D5C04F /* Build configuration list for PBXNativeTarget "Problem8Test" */;
@@ -489,6 +616,12 @@
 					C5576AED2253A8A600D58719 = {
 						CreatedOnToolsVersion = 10.1;
 					};
+					C55C7343226BC8DF00D6FF2B = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					C55C7355226BE70A00D6FF2B = {
+						CreatedOnToolsVersion = 10.1;
+					};
 					C5B8A22C225A464800D5C04F = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -515,6 +648,8 @@
 				C5025C37225405A0008A579F /* Problem4Test */,
 				C53E920422593345004D4040 /* Problem7Test */,
 				C5B8A22C225A464800D5C04F /* Problem8Test */,
+				C55C7355226BE70A00D6FF2B /* Problem12Test */,
+				C55C7343226BC8DF00D6FF2B /* Problem25Test */,
 				C5E5382422621426001E388A /* Problem257Test */,
 			);
 		};
@@ -543,6 +678,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		C53E920322593345004D4040 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C55C7342226BC8DF00D6FF2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C55C7354226BE70A00D6FF2B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -614,16 +763,40 @@
 			files = (
 				C5025C4522542538008A579F /* Problem5.swift in Sources */,
 				C55FBBA72258205A00D1E0F8 /* Problem7.swift in Sources */,
+				C55C7331226BC02A00D6FF2B /* Problem25.swift in Sources */,
 				C5025C2C2253DC0B008A579F /* String+Extension.swift in Sources */,
 				C5B8A239225A57CA00D5C04F /* Problem9.swift in Sources */,
+				C59824C1226A3C2D00A2EBB4 /* Problem12.swift in Sources */,
 				C5025C332253FC7D008A579F /* Problem4.swift in Sources */,
 				C55FBBAB2258260900D1E0F8 /* Common.swift in Sources */,
 				C5E5381122620A44001E388A /* Problem257.swift in Sources */,
 				C5025C4722542B89008A579F /* Problem6.swift in Sources */,
 				C53E921222594BC8004D4040 /* Problem8.swift in Sources */,
+				C55C732D226BB95600D6FF2B /* Problem128.swift in Sources */,
 				C5025C1B2253C54A008A579F /* Problem3.swift in Sources */,
 				C55FE09D2253AD0700F28686 /* Problem2.swift in Sources */,
+				C59824BF2268F2B300A2EBB4 /* Array+Extension.swift in Sources */,
 				C5576AF22253A8A600D58719 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C55C7340226BC8DF00D6FF2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C55C7350226BCA1B00D6FF2B /* String+Extension.swift in Sources */,
+				C55C734F226BC9DA00D6FF2B /* Problem25.swift in Sources */,
+				C55C734E226BC9D400D6FF2B /* Array+Extension.swift in Sources */,
+				C55C7347226BC8DF00D6FF2B /* Problem25Test.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C55C7352226BE70A00D6FF2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C55C735E226BE7DF00D6FF2B /* Problem12.swift in Sources */,
+				C55C7359226BE70A00D6FF2B /* Problem12Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -641,6 +814,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C55C7351226BCA7600D6FF2B /* String+Extension.swift in Sources */,
+				C55C734D226BC9B900D6FF2B /* Array+Extension.swift in Sources */,
+				C55C734C226BC91700D6FF2B /* Problem25.swift in Sources */,
 				C5E5382F226214A5001E388A /* Problem257.swift in Sources */,
 				C5E5382E22621446001E388A /* Problem257Test.swift in Sources */,
 			);
@@ -928,6 +1104,78 @@
 			};
 			name = Release;
 		};
+		C55C734A226BC8DF00D6FF2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3AS2PM2F4J;
+				INFOPLIST_FILE = Problem25Test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.humileants.Problem25Test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		C55C734B226BC8DF00D6FF2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3AS2PM2F4J;
+				INFOPLIST_FILE = Problem25Test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.humileants.Problem25Test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		C55C735C226BE70A00D6FF2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3AS2PM2F4J;
+				INFOPLIST_FILE = Problem12Test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.humileants.Problem12Test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		C55C735D226BE70A00D6FF2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3AS2PM2F4J;
+				INFOPLIST_FILE = Problem12Test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.humileants.Problem12Test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
 		C5B8A232225A464900D5C04F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1053,6 +1301,24 @@
 			buildConfigurations = (
 				C5576AF62253A8A600D58719 /* Debug */,
 				C5576AF72253A8A600D58719 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C55C7349226BC8DF00D6FF2B /* Build configuration list for PBXNativeTarget "Problem25Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C55C734A226BC8DF00D6FF2B /* Debug */,
+				C55C734B226BC8DF00D6FF2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C55C735B226BE70A00D6FF2B /* Build configuration list for PBXNativeTarget "Problem12Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C55C735C226BE70A00D6FF2B /* Debug */,
+				C55C735D226BE70A00D6FF2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
